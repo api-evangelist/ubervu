@@ -1,7 +1,24 @@
 aid: ubervu
-name: ubervu
-description: ubervu is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubervu.png
+name: uberVU
+description: uberVU was a social media analytics and monitoring company, backed by
+  Seedcamp, that offered brand-insight dashboards and a metrics API before being
+  acquired by Hootsuite in 2014. The company no longer operates independently -
+  ubervu.com now 301-redirects to blog.hootsuite.com/social-media-analytics/, its
+  former metrics API is retired, and its GitHub organization is dormant. This
+  profile is kept as a historical record of a VC-portfolio company with no current
+  public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,18 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: hootsuite
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Media
+- Analytics
+- Monitoring
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ubervu-domain-security.yml
 - type: Website
-  url: http://ubervu.com
+  url: https://ubervu.com
+- type: GitHubOrganization
+  url: https://github.com/uberVU
+- type: LLMsTxt
+  url: llms/ubervu-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

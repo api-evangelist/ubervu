@@ -1,0 +1,14 @@
+# uberVU
+
+> uberVU was a social media analytics and monitoring company (a Seedcamp portfolio company) that was acquired by Hootsuite in 2014. It no longer operates independently: ubervu.com now 301-redirects to https://blog.hootsuite.com/social-media-analytics/ and the company's former metrics API is retired. This profile exists in the API Evangelist network as a historical record of a VC-portfolio company with no current public API surface.
+
+## Company
+
+- [Website (redirects to Hootsuite)](https://ubervu.com)
+- [uberVU GitHub organization (dormant)](https://github.com/uberVU)
+
+## Artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/apis.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/security/ubervu-domain-security.yml)
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/well-known/ubervu-well-known.yml)
