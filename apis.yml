@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://ubervu.com', status: 301, note: 'declared website redirects to https://blog.hootsuite.com:443/social-media-analytics/ — a different registrable domain (ubervu.com -> hootsuite.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ubervu.png
 name: uberVU
 description: uberVU was a social media analytics and monitoring company, backed by
