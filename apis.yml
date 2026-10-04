@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-09-15'
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Monitoring
 - Acquired
@@ -59,6 +59,7 @@ tags_raw:
 - Monitoring
 - Acquired
 - Defunct
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
